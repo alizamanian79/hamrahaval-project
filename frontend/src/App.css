@@ -1,0 +1,91 @@
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+  margin: 0px;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.listContainer {
+  width: 320px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.ListInputUI {
+  width: 100%;
+  height: 55px;
+}
+
+.ListInputUI > input {
+  width: 260px;
+  height: 100%;
+  font-size: 1.2em;
+  background-color: #001a33;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  border: none;
+  color: #fff;
+}
+
+.ListInputUI > button {
+  height: 100%;
+  width: 60px;
+  background-color: #33ffbb;
+  vertical-align: bottom;
+  border: none;
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+}
+
+.ListInputUI > button:hover {
+  background-color: #66ffcc;
+}
+
+.taskList {
+  width: 100%;
+  position: absolute;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.taskList li {
+  width: 100%;
+  background-color: #ccc;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.taskList li input {
+  width: 40px;
+  background-color: #fff;
+}
+
+.taskList li button {
+  float: right;
+  padding-top: 5px;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.taskList li button:hover {
+  color: #ff1a1a;
+}
+
+.itemCompleted {
+  color: green;
+  text-decoration: line-through
+}
